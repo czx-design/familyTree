@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 public class treeNode implements Serializable {
 
-    private static String pd = "陈智鑫;周奕飞;王智明;#;#;卢姓康;胡世聪;#;#;#;#";
+    private static String pd = "a;b;c;#;#;d;e;#;#;#;#";
     private static String personData[] = pd.toString().split(";");
     private static int i = 0, n = personData.length;
 
